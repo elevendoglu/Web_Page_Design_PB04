@@ -38,5 +38,38 @@ ul {
 
 header {
     background-color: #35424A;
-    
+    color: #ffffff;
+    min-height: 70px;
+    border-bottom: 3px solid #a9508b;
+
 }
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header .highlight,
+header .current a {
+    color: #a9508b;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccccc;
+    font-weight: bold;
+}
+
