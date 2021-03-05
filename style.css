@@ -36,6 +36,12 @@ ul {
     padding: 0;
 }
 
+.button_1 {
+    height: 36px;
+    background-color: #a9508b;
+    color: #ffffff;
+}
+
 header {
     background-color: #35424A;
     color: #ffffff;
@@ -71,5 +77,44 @@ header .current a {
 header a:hover {
     color: #cccccccc;
     font-weight: bold;
+}
+
+/* showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(./img/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin: 100px 0 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Newsletter */
+
+#newsletter {
+    padding: 15px 0;
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    width: 250px;
+    height: 25px;
+    font-family: fantasy;
 }
 
