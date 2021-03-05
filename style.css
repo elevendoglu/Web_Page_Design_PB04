@@ -8,9 +8,9 @@
     background-color: aqua;
 } */
 
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 body {
     /* font-size: 15px;
@@ -118,3 +118,31 @@ header a:hover {
     font-family: fantasy;
 }
 
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxes .box {
+    text-align: center;
+    width: 30%
+    /* padding: 10px;   */ 
+    /* semicolon error */
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    margin: 20px 0;
+    border-color: cornsilk;
+    text-align: center;
+    border-top: 2px solid #a9508b;
+}
