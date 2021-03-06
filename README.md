@@ -1,5 +1,9 @@
 # Project-003 : Website Page Design (HC-04)
 
+#problems and incompleted parts:
+Header color change prop. not works. Its color must be change for each page when selected (home, services and about)
+Media query has not set up. 
+
 ## Description
 Project aims to create website site page.
 
